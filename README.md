@@ -1,3 +1,4 @@
+Note: This project requires a backend to run. Get the link to the backend [here](https://github.com/aritroCoder/login_backend_miniproj)<br>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
