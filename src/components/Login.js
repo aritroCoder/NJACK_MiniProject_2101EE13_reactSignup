@@ -25,7 +25,7 @@ const handleLogin = async (setLoggedIn, setUser) => {
     console.log(data);
     setUser(data);
     history.replace('/home');
-  }else alert(data.errors)
+  }else alert(data.errors[0].msg || data.errors)
 }
 
 const Login = () => {

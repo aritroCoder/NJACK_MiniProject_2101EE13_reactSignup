@@ -27,7 +27,7 @@ const handleLogin = async (setLoggedIn, setUser) => {
     setLoggedIn(true);
     setUser(data);
     history.push('/home');
-  } else alert(data.errors)
+  } else alert(data.errors[0].msg || data.errors)
 }
 
 const Login = () => {
